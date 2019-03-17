@@ -11,6 +11,12 @@ api = Namespace('people', description='Get information regarding people')
 class PersonFavouriteFood(Resource, BaseController):
     @api.doc('Retrieve all people of a company')
     def get(self, person_id):
+        """
+        This method acts as a main serving point for the Persons favourite food API, after receiving person_id as a input,
+        it fetches all the relevant information regarding the person and returns what is essential
+        :param person_id: unique identifier of the person (_id attribute in people.json)
+        :return: Essential information of person like, name, age, favourite fruits and favourite vegetables
+        """
         response = {}
         person_ref = ps.PeopleService()
         person_details = person_ref.get_person_details(person_id)
@@ -31,6 +37,13 @@ class PersonFavouriteFood(Resource, BaseController):
 class PeopleCommonFriends(Resource, BaseController):
     @api.doc('Retrieve common friends between two people')
     def get(self, person_1_id, person_2_id):
+        """
+        This method, on receiving two valid identifiers of two people, complies the friends list fo figure out list of common friends who
+        are still alive and have brown eyes and return essential information regarding each
+        :param person_1_id: unique identifier of the person 1(_id attribute in people.json)
+        :param person_2_id: unique identifier of the person 2(_id attribute in people.json)
+        :return: Essential information of person 1 &2 including all the common friends
+        """
         response = {}
         if person_1_id != person_2_id:
             person_ref = ps.PeopleService()
