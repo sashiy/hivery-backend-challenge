@@ -28,7 +28,7 @@ This solution is tested on both Linux and Windows operating systems. While the o
 4. Run the application (Different JSON files can be used by changing the paths of COMPANIES_JSON & PEOPLE_JSON at paranuara_api/main/config.py)
 
     ```sh
-    (env)$ python manage.py runserver
+    (hivery)$ python manage.py runserver
     ```
     
     Endpoints:
@@ -53,7 +53,7 @@ This solution is tested on both Linux and Windows operating systems. While the o
 5. Run all test cases (While test cases remain same, input criteria must be changes in case of using different companies.json or people.json)
 
     ```sh
-    (env)$ python manage.py test
+    (hivery)$ python manage.py test
     ```
 
 
