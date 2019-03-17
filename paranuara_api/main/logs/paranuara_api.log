@@ -1,0 +1,232 @@
+2019-03-17 16:29:05,244 _internal.py:88   * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-03-17 16:29:05,246 _internal.py:88   * Restarting with stat
+2019-03-17 16:29:05,959 _internal.py:88   * Debugger is active!
+2019-03-17 16:29:05,959 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:29:20,268 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:29:20] "GET / HTTP/1.1" 200 -
+2019-03-17 16:29:20,718 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:29:20] "GET /swagger.json HTTP/1.1" 200 -
+2019-03-17 16:29:29,296 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:29:29,298 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:29:29] "GET /company/test HTTP/1.1" 200 -
+2019-03-17 16:30:06,577 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:30:42,835 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:31:25,010 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:32:12,573 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:32:12,624 people_service.py:35  Input 58
+2019-03-17 16:32:12,628 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:32:12] "GET /company/JAMNATION HTTP/1.1" 200 -
+2019-03-17 16:32:40,597 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:32:40,608 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:33:13,759 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py', reloading
+2019-03-17 16:33:13,811 _internal.py:88   * Restarting with stat
+2019-03-17 16:33:14,516 _internal.py:88   * Debugger is active!
+2019-03-17 16:33:14,517 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:33:17,164 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:33:17,219 people_service.py:35  Input 58
+2019-03-17 16:33:17,226 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:33:17] "GET /company/JAMNATION HTTP/1.1" 200 -
+2019-03-17 16:33:35,815 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:33:35,829 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:33:53,496 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py', reloading
+2019-03-17 16:33:53,541 _internal.py:88   * Restarting with stat
+2019-03-17 16:33:54,534 _internal.py:88   * Debugger is active!
+2019-03-17 16:33:54,536 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:34:12,863 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:34:12,920 people_service.py:35  Input 58
+2019-03-17 16:34:12,935 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:34:23,105 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:34:23,162 people_service.py:35  Input 58
+2019-03-17 16:34:23,177 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:35:07,504 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:35:07,553 people_service.py:35  Input 0
+2019-03-17 16:35:07,557 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:35:07] "GET /company/NETBOOK HTTP/1.1" 200 -
+2019-03-17 16:35:21,647 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:35:21,698 people_service.py:35  Input 58
+2019-03-17 16:35:21,714 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:35:21,774 people_service.py:35  Input 0
+2019-03-17 16:35:21,784 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:36:12,106 company_service.py:12  In method _check_if_company_exists. Input o
+2019-03-17 16:36:12,106 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:36:12] "GET /company/o HTTP/1.1" 200 -
+2019-03-17 16:36:16,478 company_service.py:12  In method _check_if_company_exists. Input 1
+2019-03-17 16:36:16,479 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:36:16] "GET /company/1 HTTP/1.1" 200 -
+2019-03-17 16:39:55,243 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:39:55] "GET /people/595eeb9b31d3539d270d1428 HTTP/1.1" 200 -
+2019-03-17 16:40:58,173 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:40:58] "GET /people/sample HTTP/1.1" 200 -
+2019-03-17 16:41:09,913 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/people_controller.py', reloading
+2019-03-17 16:41:09,949 _internal.py:88   * Restarting with stat
+2019-03-17 16:41:10,481 _internal.py:88   * Debugger is active!
+2019-03-17 16:41:10,482 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:41:30,503 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:41:30] "GET /people/sample HTTP/1.1" 200 -
+2019-03-17 16:42:37,355 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/people_controller.py', reloading
+2019-03-17 16:42:37,404 _internal.py:88   * Restarting with stat
+2019-03-17 16:42:38,006 _internal.py:88   * Debugger is active!
+2019-03-17 16:42:38,007 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:42:39,764 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:42:39,789 people_service.py:35  Input 58
+2019-03-17 16:42:39,797 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:42:39,839 people_service.py:35  Input 0
+2019-03-17 16:42:39,845 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:43:47,423 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:43:47] "GET /people/595eeb9c5e4cf3e274cdf3d3 HTTP/1.1" 200 -
+2019-03-17 16:46:03,211 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:46:03,235 people_service.py:35  Input 58
+2019-03-17 16:46:03,244 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:46:03,281 people_service.py:35  Input 0
+2019-03-17 16:46:03,288 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:47:03,102 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:47:03,128 people_service.py:35  Input 58
+2019-03-17 16:47:03,136 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:47:03,173 people_service.py:35  Input 0
+2019-03-17 16:47:03,179 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:47:50,777 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:47:50,801 people_service.py:35  Input 58
+2019-03-17 16:47:50,810 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:47:50,842 people_service.py:35  Input 0
+2019-03-17 16:47:50,849 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:48:55,049 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:48:55,073 people_service.py:35  Input 58
+2019-03-17 16:48:55,080 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:48:55,126 people_service.py:35  Input 0
+2019-03-17 16:48:55,134 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:54:12,271 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:54:12,298 people_service.py:35  Input 58
+2019-03-17 16:54:12,307 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:54:12,340 people_service.py:35  Input 0
+2019-03-17 16:54:12,347 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:54:31,059 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:54:31,084 people_service.py:35  Input 58
+2019-03-17 16:54:31,092 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:54:31,126 people_service.py:35  Input 0
+2019-03-17 16:54:31,134 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:56:38,163 app.py:1761  Exception on /people/595eeb9b82faeaf4b3274529/595eeb9b309724177239a445 [GET]
+Traceback (most recent call last):
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/people_controller.py", line 40, in get
+    response['person_1'] = self._create_dict_for_response(p1_details)
+AttributeError: 'PeopleCommonFriends' object has no attribute '_create_dict_for_response'
+2019-03-17 16:56:38,168 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:56:38] "GET /people/595eeb9b82faeaf4b3274529/595eeb9b309724177239a445 HTTP/1.1" 500 -
+2019-03-17 16:57:36,405 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/base_controller.py', reloading
+2019-03-17 16:57:36,445 _internal.py:88   * Restarting with stat
+2019-03-17 16:57:37,126 _internal.py:88   * Debugger is active!
+2019-03-17 16:57:37,127 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:57:39,647 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:57:39] "GET /people/595eeb9b82faeaf4b3274529/595eeb9b309724177239a445 HTTP/1.1" 200 -
+2019-03-17 16:58:08,308 people_controller.py:59  Error: 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers
+2019-03-17 16:58:08,309 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:58:08] "GET /people/595eeb9b309724177239a445/595eeb9b309724177239a445 HTTP/1.1" 200 -
+2019-03-17 16:58:57,261 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/people_controller.py', reloading
+2019-03-17 16:58:57,294 _internal.py:88   * Restarting with stat
+2019-03-17 16:58:57,833 _internal.py:88   * Debugger is active!
+2019-03-17 16:58:57,834 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 16:58:58,748 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 16:58:58,748 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:58:58] "GET /people/595eeb9b309724177239a445/595eeb9b309724177239a445 HTTP/1.1" 200 -
+2019-03-17 16:59:31,958 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 16:59:31,964 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:59:31,986 people_service.py:35  Input 58
+2019-03-17 16:59:31,986 app.py:1761  Exception on /company/JAMNATION [GET]
+Traceback (most recent call last):
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py", line 28, in get
+    response['data'].append(self.create_dict_for_response(employee))
+AttributeError: 'CompanyEmployeeList' object has no attribute 'create_dict_for_response'
+2019-03-17 16:59:31,995 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:59:32,024 people_service.py:35  Input 0
+2019-03-17 16:59:32,033 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 16:59:47,421 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 16:59:47,421 _internal.py:88  127.0.0.1 - - [17/Mar/2019 16:59:47] "GET /people/595eeb9b309724177239a445/595eeb9b309724177239a445 HTTP/1.1" 200 -
+2019-03-17 16:59:53,077 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 16:59:53,083 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 16:59:53,114 people_service.py:35  Input 58
+2019-03-17 16:59:53,114 app.py:1761  Exception on /company/JAMNATION [GET]
+Traceback (most recent call last):
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py", line 28, in get
+    response['data'].append(self.create_dict_for_response(employee))
+AttributeError: 'CompanyEmployeeList' object has no attribute 'create_dict_for_response'
+2019-03-17 16:59:53,122 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 16:59:53,156 people_service.py:35  Input 0
+2019-03-17 16:59:53,161 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:00:36,492 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:00:36,526 people_service.py:35  Input 58
+2019-03-17 17:00:36,526 app.py:1761  Exception on /company/JAMNATION [GET]
+Traceback (most recent call last):
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/lib/python3.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py", line 28, in get
+    response['data'].append(self.create_dict_for_response(employee))
+AttributeError: 'CompanyEmployeeList' object has no attribute 'create_dict_for_response'
+2019-03-17 17:00:36,531 _internal.py:88  127.0.0.1 - - [17/Mar/2019 17:00:36] "GET /company/JAMNATION HTTP/1.1" 500 -
+2019-03-17 17:01:04,770 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/controller/company_controller.py', reloading
+2019-03-17 17:01:04,806 _internal.py:88   * Restarting with stat
+2019-03-17 17:01:05,299 _internal.py:88   * Debugger is active!
+2019-03-17 17:01:05,300 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 17:01:07,517 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:01:07,523 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:01:07,547 people_service.py:35  Input 58
+2019-03-17 17:01:07,552 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:01:07,585 people_service.py:35  Input 0
+2019-03-17 17:01:07,591 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:13:28,318 _internal.py:88  127.0.0.1 - - [17/Mar/2019 17:13:28] "GET /people/595eeb9b82a0056a415c44aa/595eeb9b309724177239a445 HTTP/1.1" 200 -
+2019-03-17 17:15:29,175 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:15:29,178 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:15:29,214 people_service.py:35  Input 58
+2019-03-17 17:15:29,219 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:15:29,243 people_service.py:35  Input 0
+2019-03-17 17:15:29,251 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:15:52,768 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:15:52,770 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:15:52,803 people_service.py:35  Input 58
+2019-03-17 17:15:52,808 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:15:52,828 people_service.py:35  Input 0
+2019-03-17 17:15:52,834 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:16:17,914 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:16:17,917 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:16:17,950 people_service.py:35  Input 58
+2019-03-17 17:16:17,955 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:16:17,976 people_service.py:35  Input 0
+2019-03-17 17:16:17,982 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:17:18,821 _internal.py:88   * Detected change in '/mnt/c/MyKingdom/research/hivery-backend-challenge-master/hivery/paranuara_api/main/service/people_service.py', reloading
+2019-03-17 17:17:18,853 _internal.py:88   * Restarting with stat
+2019-03-17 17:17:19,402 _internal.py:88   * Debugger is active!
+2019-03-17 17:17:19,403 _internal.py:88   * Debugger PIN: 281-327-724
+2019-03-17 17:17:20,523 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:17:20,526 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:17:20,564 people_service.py:35  Input 58
+2019-03-17 17:17:20,571 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:17:20,590 people_service.py:35  Input 0
+2019-03-17 17:17:20,590 people_service.py:40  Cannot find any people associated with company 0
+2019-03-17 17:17:20,594 company_service.py:12  In method _check_if_company_exists. Input test
+2019-03-17 17:18:01,773 people_controller.py:59  {'data': 'Error 595eeb9b309724177239a445 and 595eeb9b309724177239a445 are same, please provide different user identifiers'}
+2019-03-17 17:18:01,804 company_service.py:12  In method _check_if_company_exists. Input JAMNATION
+2019-03-17 17:18:01,834 people_service.py:35  Input 58
+2019-03-17 17:18:01,839 company_service.py:12  In method _check_if_company_exists. Input NETBOOK
+2019-03-17 17:18:01,858 people_service.py:35  Input 0
+2019-03-17 17:18:01,859 people_service.py:40  Cannot find any people associated with company 0
+2019-03-17 17:18:01,866 company_service.py:12  In method _check_if_company_exists. Input test
