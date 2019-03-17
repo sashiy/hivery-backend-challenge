@@ -11,6 +11,12 @@ api = Namespace('company', description='Get employees from a company')
 class CompanyEmployeeList(Resource, BaseController):
     @api.doc('Retrieve all people of a company')
     def get(self, company_name):
+        """
+        This method, on accepting a valid company name, looks for the unique identifier of the company from companies.json
+        and fetches all the employees of the company by compiling information from people.json
+        :param company_name: Name of the company
+        :return: List of employees with essential information about each
+        """
         response = {}
         company_reference = cs.CompanyService()
         company_id = company_reference.get_company_id(company_name)
