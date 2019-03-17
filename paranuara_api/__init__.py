@@ -12,5 +12,9 @@ api = Api(blueprint,
           description='Exposed endpoints to fetch information regarding Paranuara''s companies and its people'
           )
 
+"""
+Its required to add all the namespaces defined in any controller inside the application, 
+this acts like a hook between flask server and the browser
+"""
 api.add_namespace(company_ns, path='/company')
 api.add_namespace(people_ns, path='/people')
