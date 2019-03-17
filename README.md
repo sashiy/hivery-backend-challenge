@@ -50,7 +50,7 @@ This solution is tested on both Linux and Windows operating systems. While the o
 
     
     
-5. Run all test cases (While test cases remain same, input criteria must be changes in case of using different companies.json or people.json)
+5. Run all test cases (While test cases remain same, input criteria must be changed in case of using different companies.json or people.json)
 
     ```sh
     (hivery)$ python manage.py test
