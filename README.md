@@ -17,7 +17,7 @@ This solution is tested on both Linux and Windows operating systems. While the o
     $ source hivery/bin/activate
     ```
 
-    > **NOTE**: You know that you are in a virtual environment as "env" is now showing before the $ in your terminal - (env)$. To exit the virtual environment, use the command `deactivate`. You can reactivate by navigating back to the project directory and running `source env/bin/activate`.
+    > **NOTE**: You know that you are in a virtual environment as "hivery" is now showing before the $ in your terminal - (hivery)$. To exit the virtual environment, use the command `deactivate`. You can reactivate by navigating back to the project directory and running `source hivery/bin/activate`.
 
 3. Install all the dependencies listed in requirements.txt 
 
