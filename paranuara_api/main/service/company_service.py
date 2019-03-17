@@ -8,6 +8,13 @@ class CompanyService:
         self._list_of_companies = read_data_from_file(Config.COMPANIES_JSON)
 
     def _check_if_company_exists(self, company_name):
+        """
+        This private method accepts the name of a company as an argument and checks whether
+        that company is present in the companies.json file or not. If present all the information available is returned
+        as a JSON, else None
+        :param company_name: Name of a company
+        :return: Company JSON if valid or None
+        """
         try:
             logging.info('In method _check_if_company_exists. Input {}'.format(company_name))
             if self._list_of_companies is not None and len(self._list_of_companies) > 0:
@@ -22,6 +29,11 @@ class CompanyService:
             logging.error(str(e))
 
     def get_company_id(self, company_name):
+        """
+        This method returns index of the company which is a unique identifier for the given company name
+        :param company_name: Name of the company
+        :return: Index or the unique identifier of the company
+        """
         try:
             company_details = self._check_if_company_exists(company_name)
             if company_details is not None:
